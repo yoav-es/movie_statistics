@@ -48,7 +48,7 @@ A2: Ratio of English-language films to single-language, non-English films: {engl
 """)
 
 print("="*60)
-print(f"""Q3: What percentage of films are in multiple languages?
+print(f"""Q3: What is the ratio of multiple languages to all films?
 A3: Ratio of multiple language films to all films: {is_multiple_lang.sum() / total_movie_count:.2f}
 """)
 
@@ -65,7 +65,7 @@ plt.xlabel('IMDB SCORE')
 plt.ylabel('Frequency')
 plt.title('Distribution of Movie IMDB Scores')
 plt.grid(axis='y', alpha=0.75)
-# plt.show()
+plt.show()
 
 print("="*60)
 print(f"""Q5: How are IMDb scores distributed?
@@ -91,7 +91,7 @@ plt.xlabel('Runtime (minutes)')
 plt.ylabel('Frequency')
 plt.title('Distribution of Movie Runtimes')
 plt.grid(axis='y', alpha=0.75)
-# plt.show()
+plt.show()
 
 print("="*60)
 print(f"""Q7: A runtime (in minutes) vs. frequency analysis was performed, resulting in a mean of {runtime_mean:.2f} minutes and a standard deviation of {runtime_std:.2f} minutes.
