@@ -1,5 +1,4 @@
-# git remote -v
- Analysis
+# Netflix Movie Statistics Analysis
 
 This project analyzes Netflix Originals data to answer questions about language, genre, IMDb scores, and runtime statistics.  
 It uses Python, pandas, and matplotlib for data analysis and visualization.
