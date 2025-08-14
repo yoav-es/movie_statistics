@@ -2,7 +2,7 @@
 
 This project analyzes Netflix Originals data to answer questions about language, genre, IMDb scores, and runtime statistics.  
 It uses Python, pandas, and matplotlib for data analysis and visualization.
-
+This project was inspired by a Codecademy exercise. All analysis and code are original, and the dataset is from Kaggle.
 ## Features
 
 - Calculates proportions of English-language and multi-language films
@@ -40,10 +40,6 @@ It uses Python, pandas, and matplotlib for data analysis and visualization.
 
 This project uses the [Netflix Original Films IMDb Scores dataset from Kaggle](https://www.kaggle.com/datasets/luiscorter/netflix-original-films-imdb-scores).
 
-## License
 
-MIT License
-
----
-
-*This project was inspired by a Codecademy exercise. All analysis and code are original, and the dataset is from Kaggle.*
+## 📝 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
